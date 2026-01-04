@@ -16,11 +16,12 @@ const Hero = () => {
           {/* YouTube Video Embed */}
           <iframe
             className="absolute w-[300%] h-[300%] lg:w-[150%] lg:h-[150%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none object-cover opacity-90"
-            src="https://www.youtube.com/embed/S_yWGemBM9Q?autoplay=1&mute=1&loop=1&playlist=S_yWGemBM9Q&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&enablejsapi=1"
+            src="https://www.youtube.com/embed/S_yWGemBM9Q?autoplay=1&mute=1&loop=1&playlist=S_yWGemBM9Q&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&enablejsapi=1&start=0"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Muay Thai training background video"
+            playsInline
           ></iframe>
         </div>
         {/* Gradient Overlay (Red/Blue tint) */}
