@@ -1,0 +1,117 @@
+{
+  "common": {
+    "location": "Sukhumvit Soi 24, Bangkok",
+    "fighterVisa": "Fighter Visa",
+    "accommodation": "Accommodation",
+    "gym": "Gym",
+    "theKru": "The Kru",
+    "training": "Training",
+    "freeTrial": "Free Trial",
+    "bookSession": "Book Session",
+    "viewClass": "View Class",
+    "contact": "Contact",
+    "fighters": "Fighters",
+    "visas": "Visas"
+  },
+  "hero": {
+    "label": "Sticky Rice Fight Gym • BKK",
+    "title": "Forged in",
+    "titleHighlight": "Tradition",
+    "subtitle": "Experience authentic Muay Thai at",
+    "subtitleHighlight": "Sticky Rice Fight Gym",
+    "subtitleEnd": "Located in the heart of Sukhumvit.",
+    "cta": "Book First Session",
+    "groupClass": "Group Class",
+    "privateClass": "Private 1-on-1",
+    "visa": "Visa"
+  },
+  "topBar": {
+    "location": "Sukhumvit Soi 24, Bangkok"
+  },
+  "trainingPrograms": {
+    "philosophy": {
+      "label": "Sticky Rice Philosophy",
+      "title": "Eat Rice.",
+      "titleHighlight": "Train Hard.",
+      "titleEnd": "Fight Easy.",
+      "description": "\"Sticky Rice\" represents the bond of our community—we stick together. Our training is intense, authentic, and designed to build fighters from the ground up.",
+      "championTrainers": "Champion Trainers",
+      "technicalSparring": "Technical Sparring",
+      "sakYantCulture": "Sak Yant Culture"
+    },
+    "muayThai": {
+      "title": "Muay Thai",
+      "description": "Daily pad work & technique"
+    },
+    "clinchSpar": {
+      "title": "Clinch & Spar",
+      "description": "Apply your skills safely"
+    },
+    "conditioning": {
+      "title": "Conditioning",
+      "description": "Strength & Stamina"
+    }
+  },
+  "about": {
+    "label": "The Gym",
+    "title": "Bangkok's Premier",
+    "titleHighlight": "Fight Camp",
+    "description": "At",
+    "descriptionHighlight": "Sticky Rice Fight Gym",
+    "descriptionEnd": ", we bring the authentic stadium experience to a modern facility. Whether you are training for fitness or your next professional fight, our Kru will push you to your limits.",
+    "trainingFocus": {
+      "title": "Training",
+      "titleHighlight": "Focus",
+      "dailyPadWork": "Daily Pad Work",
+      "clinchSparring": "Clinch & Technical Sparring",
+      "strengthConditioning": "Strength & Conditioning"
+    },
+    "gymStats": {
+      "title": "Gym",
+      "titleHighlight": "Stats",
+      "fullRings": "Full Rings",
+      "heavyBags": "Heavy Bags"
+    },
+    "cta": "Start Training"
+  },
+  "features": {
+    "title": "Why",
+    "titleHighlight": "Sticky",
+    "titleEnd": "Rice?",
+    "eliteTrainers": {
+      "title": "Elite Trainers",
+      "description": "Learn from former Rajadamnern and Lumpinee stadium champions with over 200+ fights."
+    },
+    "realTechnique": {
+      "title": "Real Technique",
+      "description": "We teach \"Muay Femur\" (technician) and \"Muay Khao\" (knee fighter) styles. Correct form is priority."
+    },
+    "premiumFacility": {
+      "title": "Premium Facility",
+      "description": "Air-conditioned strength zone, clean mats, and premium Fairtex equipment."
+    },
+    "fighterVisaLiving": {
+      "title": "Fighter Visa",
+      "titleHighlight": "& Living",
+      "description": "Looking to stay long term? We provide ED Visa support for 6-12 months and have partner accommodation just 5 minutes walk from Sticky Rice Fight Gym.",
+      "monthVisa": "Month Visa"
+    },
+    "viewSchedule": "View Class Schedule"
+  },
+  "testimonials": {
+    "title": "Fighter",
+    "titleHighlight": "Stories",
+    "subtitle": "From around the world to Bangkok.",
+    "readAllReviews": "Read all reviews"
+  },
+  "affiliations": {
+    "title": "Recognized By"
+  },
+  "footer": {
+    "tagline": "Fight Gym • Thailand",
+    "waiver": "Waiver",
+    "rules": "Rules",
+    "policy": "Policy",
+    "copyright": "© 2024 Sticky Rice Fight Gym. All Rights Reserved."
+  }
+}

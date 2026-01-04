@@ -1,0 +1,117 @@
+{
+  "common": {
+    "location": "สุขุมวิท ซอย 24 กรุงเทพ",
+    "fighterVisa": "วีซ่านักสู้",
+    "accommodation": "ที่พัก",
+    "gym": "ยิม",
+    "theKru": "ครู",
+    "training": "การฝึก",
+    "freeTrial": "ทดลองฟรี",
+    "bookSession": "จองเซสชัน",
+    "viewClass": "ดูคลาส",
+    "contact": "ติดต่อ",
+    "fighters": "นักสู้",
+    "visas": "วีซ่า"
+  },
+  "hero": {
+    "label": "สติกกี้ ไรซ์ ไฟท์ ยิม • กรุงเทพ",
+    "title": "หล่อหลอมด้วย",
+    "titleHighlight": "ประเพณี",
+    "subtitle": "สัมผัสมวยไทยแท้ที่",
+    "subtitleHighlight": "สติกกี้ ไรซ์ ไฟท์ ยิม",
+    "subtitleEnd": "ตั้งอยู่ในใจกลางสุขุมวิท",
+    "cta": "จองเซสชันแรก",
+    "groupClass": "คลาสกลุ่ม",
+    "privateClass": "ส่วนตัว 1-ต่อ-1",
+    "visa": "วีซ่า"
+  },
+  "topBar": {
+    "location": "สุขุมวิท ซอย 24 กรุงเทพ"
+  },
+  "trainingPrograms": {
+    "philosophy": {
+      "label": "ปรัชญาสติกกี้ ไรซ์",
+      "title": "กินข้าวเหนียว",
+      "titleHighlight": "ฝึกหนัก",
+      "titleEnd": "ต่อสู้ง่าย",
+      "description": "\"ข้าวเหนียว\" แทนพันธะของชุมชนของเรา—เราติดกัน  การฝึกของเราดุเดือด แท้ และออกแบบมาเพื่อสร้างนักสู้ตั้งแต่ต้น",
+      "championTrainers": "ครูแชมป์",
+      "technicalSparring": "สปาร์ริงเทคนิค",
+      "sakYantCulture": "วัฒนธรรมสักยันต์"
+    },
+    "muayThai": {
+      "title": "มวยไทย",
+      "description": "งานแพดและเทคนิครายวัน"
+    },
+    "clinchSpar": {
+      "title": "คลินช์และสปาร์",
+      "description": "ใช้ทักษะของคุณอย่างปลอดภัย"
+    },
+    "conditioning": {
+      "title": "การปรับสภาพ",
+      "description": "ความแข็งแกร่งและความอดทน"
+    }
+  },
+  "about": {
+    "label": "ยิม",
+    "title": "แคมป์การต่อสู้ชั้นนำ",
+    "titleHighlight": "ของกรุงเทพ",
+    "description": "ที่",
+    "descriptionHighlight": "สติกกี้ ไรซ์ ไฟท์ ยิม",
+    "descriptionEnd": " เรานำประสบการณ์สนามที่แท้จริงมาสู่สถานที่ทันสมัย ไม่ว่าคุณจะฝึกเพื่อฟิตเนสหรือการต่อสู้ระดับมืออาชีพครั้งต่อไป ครูของเราจะผลักดันคุณให้ถึงขีดจำกัด",
+    "trainingFocus": {
+      "title": "การฝึก",
+      "titleHighlight": "โฟกัส",
+      "dailyPadWork": "งานแพดรายวัน",
+      "clinchSparring": "คลินช์และสปาร์ริงเทคนิค",
+      "strengthConditioning": "ความแข็งแกร่งและการปรับสภาพ"
+    },
+    "gymStats": {
+      "title": "สถิติ",
+      "titleHighlight": "ยิม",
+      "fullRings": "เวทีเต็ม",
+      "heavyBags": "กระสอบหนัก"
+    },
+    "cta": "เริ่มฝึก"
+  },
+  "features": {
+    "title": "ทำไม",
+    "titleHighlight": "สติกกี้",
+    "titleEnd": "ไรซ์?",
+    "eliteTrainers": {
+      "title": "ครูชั้นนำ",
+      "description": "เรียนรู้จากแชมป์อดีตสนามราชดำเนินและลุมพินีที่มีมากกว่า 200+ การต่อสู้"
+    },
+    "realTechnique": {
+      "title": "เทคนิคจริง",
+      "description": "เราสอนสไตล์ \"มวยเฟมูร์\" (เทคนิค) และ \"มวยเข่า\" (นักสู้เข่า) รูปแบบที่ถูกต้องเป็นสิ่งสำคัญ"
+    },
+    "premiumFacility": {
+      "title": "สถานที่พรีเมียม",
+      "description": "โซนความแข็งแกร่งปรับอากาศ พื้นสะอาด และอุปกรณ์แฟร์เท็กซ์พรีเมียม"
+    },
+    "fighterVisaLiving": {
+      "title": "วีซ่านักสู้",
+      "titleHighlight": "และการอยู่อาศัย",
+      "description": "ต้องการอยู่นาน? เราจัดหา ED Visa สำหรับ 6-12 เดือน และมีที่พักคู่ค้าที่ห่างจากสติกกี้ ไรซ์ ไฟท์ ยิม เพียง 5 นาที",
+      "monthVisa": "เดือนวีซ่า"
+    },
+    "viewSchedule": "ดูตารางเรียน"
+  },
+  "testimonials": {
+    "title": "เรื่องราว",
+    "titleHighlight": "นักสู้",
+    "subtitle": "จากทั่วทุกมุมโลกสู่กรุงเทพ",
+    "readAllReviews": "อ่านรีวิวทั้งหมด"
+  },
+  "affiliations": {
+    "title": "ได้รับการยอมรับจาก"
+  },
+  "footer": {
+    "tagline": "ไฟท์ ยิม • ประเทศไทย",
+    "waiver": "สละสิทธิ์",
+    "rules": "กฎ",
+    "policy": "นโยบาย",
+    "copyright": "© 2024 สติกกี้ ไรซ์ ไฟท์ ยิม สงวนลิขสิทธิ์"
+  }
+}
