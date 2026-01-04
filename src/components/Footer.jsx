@@ -68,10 +68,37 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="text-center">
+        <div className="text-center space-y-4">
           <p className="text-[9px] text-gray-400 uppercase tracking-wider">
             {t('footer.copyright')}
           </p>
+          
+          {/* BKK Boost Credit */}
+          <div className="flex items-center justify-center gap-2.5 pt-4 border-t border-gray-100">
+            <span className="text-xs text-gray-500 uppercase tracking-wide">
+              {t('footer.managedBy')}:
+            </span>
+            <a
+              href="https://bkkboost.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2.5 hover:opacity-80 transition-opacity group"
+              aria-label="Bangkok Boost Studios"
+            >
+              <img
+                src="/images/112.png"
+                alt="Bangkok Boost Studios"
+                className="h-6 w-auto opacity-70 group-hover:opacity-100 transition-opacity"
+                onError={(e) => {
+                  // Hide image if it fails to load, show text only
+                  e.target.style.display = 'none';
+                }}
+              />
+              <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide group-hover:text-gray-900 transition-colors">
+                {t('footer.bangkokBoostStudios')}
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </footer>

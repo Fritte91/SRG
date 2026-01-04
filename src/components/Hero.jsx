@@ -1,4 +1,3 @@
-import { useEffect, useRef, useState } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useInitScrollReveal } from '../hooks/useScrollReveal';
@@ -6,61 +5,23 @@ import { handleAnchorClick } from '../utils/smoothScroll';
 
 const Hero = () => {
   const { t } = useLanguage();
-  const videoRef = useRef(null);
-  const [videoError, setVideoError] = useState(false);
-  const [videoLoaded, setVideoLoaded] = useState(false);
 
   useInitScrollReveal();
-
-  // Video error handling
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    const handleError = () => {
-      setVideoError(true);
-      console.warn('Video failed to load, using fallback');
-    };
-
-    const handleLoadedData = () => {
-      setVideoLoaded(true);
-    };
-
-    video.addEventListener('error', handleError);
-    video.addEventListener('loadeddata', handleLoadedData);
-
-    return () => {
-      video.removeEventListener('error', handleError);
-      video.removeEventListener('loadeddata', handleLoadedData);
-    };
-  }, []);
 
   return (
     <section className="min-h-[700px] flex overflow-hidden bg-black h-[95vh] relative items-center justify-center border-b border-white/5" id="hero-section">
       {/* Background Video & Overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          {/* Muay Thai Video Loop */}
-          {!videoError ? (
-            <video
-              ref={videoRef}
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className={`absolute w-[300%] h-[300%] lg:w-[150%] lg:h-[150%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none object-cover opacity-50 grayscale scale-105 transition-opacity duration-1000 ${
-                videoLoaded ? 'opacity-50' : 'opacity-0'
-              }`}
-              aria-label="Muay Thai training background video"
-            >
-              <source src="https://videos.pexels.com/video-files/3044545/3044545-uhd_2560_1440_25fps.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          ) : (
-            // Fallback gradient background if video fails
-            <div className="absolute inset-0 bg-gradient-to-br from-[#1a0000] via-[#050505] to-[#00001a]"></div>
-          )}
+          {/* YouTube Video Embed */}
+          <iframe
+            className="absolute w-[300%] h-[300%] lg:w-[150%] lg:h-[150%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none object-cover opacity-90"
+            src="https://www.youtube.com/embed/S_yWGemBM9Q?autoplay=1&mute=1&loop=1&playlist=S_yWGemBM9Q&controls=0&showinfo=0&modestbranding=1&rel=0&iv_load_policy=3&playsinline=1&enablejsapi=1"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Muay Thai training background video"
+          ></iframe>
         </div>
         {/* Gradient Overlay (Red/Blue tint) */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/30 to-[#050505] z-10"></div>
